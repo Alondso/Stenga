@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: auto;
+    margin-top: auto;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding: auto;
+    margin-top: auto;
+}
+
+nav ul {
+    background-color: black;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+    margin-top: auto;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    margin-left: 620px;
+    border-radius: 10px black;
+}
+
+nav p {
+    color: white;
+    display: inline;
+    margin-right: 900px;
+    text-align: center;
+}
+
+#search {
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#button {
+    background-color: white;
+    border: 0px solid black;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+main {
+    padding: 20px;
+    margin-top: auto;
+}
+
+main h2 {
+    margin-left: 50px;
+    margin: 35px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 540px;
+}
+
+.description{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.side-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.side-section h3 {
+    font-size: 1.5rem;
+}
+
+.left {
+    clear: left;
+}
+
+.right {
+    float: right;
+    clear: right;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: wheat;
+    color: black;
+    padding: auto;
+    margin-top: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-logo img {
+    width: 120px; /* Ajustez la largeur du logo selon vos besoins */
+    margin-left: 50px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-info p {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles pour les appareils mobiles */
+    header h1 {
+        font-size: 1.5em; /* Exemple : réduire la taille de la police pour les mobiles */
+    }
+
+    nav img {
+        width: 30px; /* Exemple : réduire la taille des images pour les mobiles */
+        height: 30px;
+    }
+
+    nav p {
+        margin-right: 10px; /* Exemple : ajuster la marge pour les mobiles */
+    }
+
+    .side-section p {
+        display: none;
+    }
+
+    .contenu-iframe {
+        width: 150px;
+        height: 90px;
+    }
+
+    nav img {
+        width: 50px;
+        height: 50px;
+        margin-left: 190px;
+        border-radius: 10px black;
+    }
+
+    .footer-logo img {
+        width: 60px; /* Ajustez la largeur du logo selon vos besoins */
+        height: 60px;
+        margin-left: 15px;
+    }
+    
+}
