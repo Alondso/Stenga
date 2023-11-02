@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stenga - Food Wars</title>
-    <link rel="icon" href="logo.png" type="image/gif">
+    <link rel="icon" href="logo.PNG" type="image/gif">
 </head>
 <body>
     <main>
-        <img src="food-wars.jpg">
+        <img src="/image/food-wars.jpg">
         <h2>FOOD WARS</h2>
         <h1>Saison 1</h1>
         <p>EPISODE 1 :</p>
@@ -31,11 +31,39 @@
         <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042084&share=1 allowfullscreen="true"></iframe>
         <p>EPISODE 10 :</p>
         <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042087&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 11 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042089&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 12 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042092&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 13 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042094&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 14 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042096&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 15 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042098&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 16 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042100&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 17 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042102&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 18 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042106&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 19 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042111&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 20 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042113&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 21 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042114&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 22 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042118&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 23 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042120&share=1 allowfullscreen="true"></iframe>
+        <p>EPISODE 24 :</p>
+        <iframe width=640 height=360 src=https://video.sibnet.ru/shell.php?videoid=5042124&share=1 allowfullscreen="true"></iframe>
     </main>
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="logo.png" alt="Logo de Stenga">
+                <img src="/image/logo.png" alt="Logo de Stenga">
             </div>
             <div class="footer-links">
                 <ul>
@@ -124,7 +152,47 @@
             margin-top: 10px;
             margin-left: 10px;
             color: black;
-        }  
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 80%;
+                height: 100%;
+                margin-left: 45px; /* Centrer horizontalement */
+            }
+            h2, h1, p {
+                margin-left: 20px ; /* Ajouter de l'espacement autour du texte */
+            }
+            iframe {
+                width: 90%; /* Remplir la largeur de l'écran */
+                max-width: none; /* Supprimer la largeur maximale */
+                height: auto;
+                margin-left: 20px;
+            }
+            .footer-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .footer-logo {
+                margin-left: -195px;
+                margin-bottom: 10px;
+                width: 10px;
+                height: auto;
+            }
+            .footer-links ul li {
+                display: inline;
+                margin-right: 10px;
+            }
+            
+            .footer-links ul li {
+                margin-bottom: 5px;
+            }
+            .footer-info p {
+                margin-top: 10px;
+            }
+        }
     </style>
 </body>
 </html>
